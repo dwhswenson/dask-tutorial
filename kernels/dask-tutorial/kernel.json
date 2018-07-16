@@ -1,0 +1,9 @@
+{
+ "argv": [
+  "${HOME}/.local/share/jupyter/kernels/e-cam/scipy-kernel.sh",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "dask-tutorial",
+ "language": "python"
+}
