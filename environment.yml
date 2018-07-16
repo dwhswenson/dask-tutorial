@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3
+  - cython
   - numpy
   - h5py
   - scipy
@@ -26,6 +27,8 @@ dependencies:
   - s3fs
   - fastparquet
   - dask-ml
+  - ipywidgets
   - pip:
     - graphviz 
     - cachey
+    - msgpack

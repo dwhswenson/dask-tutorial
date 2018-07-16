@@ -1,7 +1,13 @@
 # Dask Tutorial
 
-This tutorial was last given at SciPy 2017 in Austin Texas.
-[A video is available online](https://www.youtube.com/watch?v=mbfsog3e5DA).
+This is a variant of the dask tutorial at
+http://github.com/dask/dask-tutorial. It also uses ideas from
+https://github.com/TomAugspurger/dask-tutorial-pycon-2018.
+
+This version was presented at the E-CAM Extended Software Developement
+workshop in Turin, Italy, on 17 July, 2018.
+
+---
 
 Dask provides multi-core execution on larger-than-memory datasets.
 
@@ -29,9 +35,10 @@ schedulers (odd sections.)
 
 You should clone this repository
 
-    git clone http://github.com/dask/dask-tutorial
+    git clone http://github.com/dwhswenson/dask-tutorial
 
-and then install necessary packages.
+and and check out the appropriate branch with `git checkout esdw_turin`,
+then install necessary packages.
 
 #### a) Create a conda environment (preferred)
 
@@ -97,7 +104,7 @@ From the repo directory
 
 1. [Delayed](01_dask.delayed.ipynb) - the single-function way to parallelize general python code
 
-1x. [Lazy](01x_lazy.ipynb) - some of the principles behing laxy execution, for the interested.
+1x. [Lazy](01x_lazy.ipynb) - some of the principles behing laxy execution, for the interested. 
 
 2. [Bag](02_bag.ipynb) - the first high-level collection: a generalized iterator for use
 with a functional programming style and to clean messy data.
