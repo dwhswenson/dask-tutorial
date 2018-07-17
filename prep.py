@@ -10,7 +10,7 @@ here = os.path.dirname(__file__)
 
 data_dir = os.path.join(here, 'data')
 if not os.path.exists(data_dir):
-    os.mkdir(data_fir)
+    os.mkdir(data_dir)
 
 
 def flights():
