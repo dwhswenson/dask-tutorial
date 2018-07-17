@@ -7,7 +7,6 @@ module load COMPSs/2.3-Python-3.6.5
 module load dask-jobqueue/0.3.0-Python-3.6.5
 module load scikit-image/0.14.0-Python-3.6.5
 module load h5py
-module load scikit-image
 module load pybind11
 module load numba/0.37.0-Python-3.6.5
 module load CMake
